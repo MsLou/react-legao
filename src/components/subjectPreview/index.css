@@ -1,0 +1,107 @@
+.preview {
+  width: 375px;
+  margin: 64px auto 66px auto;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -444px; }
+  .preview .inner {
+    background-color: #F5F5F5;
+    min-height: 667px;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-size: 100% auto; }
+  .preview-head {
+    background-color: #fff; }
+  .preview-item {
+    position: relative; }
+    .preview-item.active .preview-border {
+      display: block; }
+    .preview-item:hover .preview-border {
+      display: block; }
+    .preview-item .preview-border {
+      position: absolute;
+      z-index: 8;
+      display: none; }
+      .preview-item .preview-border.left {
+        height: 100%;
+        border-left: 2px dashed #2789FF;
+        top: 0; }
+      .preview-item .preview-border.top {
+        width: 100%;
+        border-top: 2px dashed #2789FF;
+        top: 0; }
+      .preview-item .preview-border.right {
+        height: 100%;
+        border-right: 2px dashed #2789FF;
+        top: 0;
+        right: 0; }
+      .preview-item .preview-border.bottom {
+        width: 100%;
+        border-bottom: 2px dashed #2789FF;
+        bottom: 0; }
+    .preview-item.error .preview-border {
+      display: block; }
+      .preview-item.error .preview-border.left {
+        border-color: #FE3E3E; }
+      .preview-item.error .preview-border.top {
+        border-color: #FE3E3E; }
+      .preview-item.error .preview-border.right {
+        border-color: #FE3E3E; }
+      .preview-item.error .preview-border.bottom {
+        border-color: #FE3E3E; }
+  .preview-title {
+    height: 40px;
+    position: relative; }
+    .preview-title .el-icon-arrow-left {
+      position: absolute;
+      left: 12px;
+      font-size: 20px; }
+    .preview-title .title {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold; }
+    .preview-title .other-icon {
+      position: absolute;
+      right: 12px; }
+      .preview-title .other-icon i {
+        font-size: 17px; }
+  .preview .icons {
+    z-index: 50;
+    position: absolute;
+    top: 500px;
+    left: 20px; }
+    .preview .icons img {
+      width: 30px; }
+
+.preview-head {
+  background-color: #fff;
+  background-size: 100% auto; }
+  .preview-head .signal {
+    width: 100%;
+    display: block; }
+  .preview-head .preview-title {
+    height: 40px;
+    position: relative; }
+    .preview-head .preview-title .el-icon-arrow-left {
+      position: absolute;
+      left: 12px;
+      font-size: 20px; }
+    .preview-head .preview-title .title {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 180px;
+      white-space: nowrap; }
+      .preview-head .preview-title .title img {
+        max-height: 20px;
+        max-width: 180px; }
+    .preview-head .preview-title .other-icon {
+      position: absolute;
+      right: 12px;
+      height: 17px; }
+      .preview-head .preview-title .other-icon i {
+        font-size: 20px;
+        margin-left: 5px; }

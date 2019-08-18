@@ -1,0 +1,63 @@
+.catalog-item {
+  height: 60px;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 16px;
+  cursor: pointer; }
+  .catalog-item i {
+    color: #B8BCC4;
+    font-size: 20px; }
+  .catalog-item span {
+    font-size: 13px;
+    color: #B8BCC4;
+    display: block;
+    margin-top: 7px; }
+  .catalog-item.active i {
+    color: #2789FF; }
+  .catalog-item.active span {
+    color: #2789FF; }
+
+.module-item {
+  width: 80px;
+  height: 72px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 8px;
+  flex-direction: column;
+  border: 1px solid #EAECEF;
+  margin-top: 8px;
+  cursor: pointer; }
+  .module-item i {
+    margin-top: 6px;
+    font-size: 24px;
+    color: #B8BCC4; }
+  .module-item p {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 9px; }
+
+.menu {
+  width: 272px;
+  left: 0;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  padding-top: 64px;
+  z-index: 10; }
+  .menu.active {
+    top: 0;
+    position: fixed; }
+  .menu .catalog {
+    width: 72px;
+    background: #F4F6F8;
+    height: 100%;
+    border-right: 1px solid #E3E7ED; }
+  .menu .components {
+    width: 200px; }
+  .menu .module {
+    background-color: #F4F6F8;
+    width: 200px; }
+    .menu .module-inner {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 8px 0 0 8px; }

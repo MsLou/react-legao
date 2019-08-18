@@ -1,0 +1,4 @@
+body, html { background: #dcdfe4; }
+.flex-center { display: flex;align-items: center;justify-content: center; }
+p, div, ul, li { margin: 0; padding: 0; }
+.baseinfo-edit .el-form-item { margin: 0; }

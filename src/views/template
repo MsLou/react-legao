@@ -1,0 +1,15 @@
+import * as React from 'react'
+import { connect } from 'react-redux'
+
+class Name extends React.Component {
+    public static state = {}
+    public render () {
+        return (
+            <div className="name">
+                12
+            </div>
+        )
+    }
+}
+
+export default connect(state => state)(Name)

@@ -1,0 +1,49 @@
+.edit {
+  position: absolute;
+  width: 538px;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: 82px;
+  transition: .3s;
+  margin-bottom: 20px; }
+  .edit-btns {
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 4px;
+    margin-bottom: 10px; }
+    .edit-btns button {
+      width: 60px;
+      height: 44px;
+      border: 0;
+      padding: 0;
+      color: #909399;
+      border-radius: 0;
+      font-size: 12px;
+      position: relative;
+      margin-left: 0; }
+      .edit-btns button:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 20px;
+        background-color: #E3E7ED;
+        position: absolute;
+        right: 0;
+        top: 12px; }
+      .edit-btns button:last-child:after {
+        display: inline;
+        position: static; }
+      .edit-btns button:visited, .edit-btns button:active, .edit-btns button:focus {
+        background-color: transparent; }
+      .edit-btns button:hover {
+        color: #2789FF;
+        background-color: transparent; }
+  .edit-body {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px 10px 10px 0; }
+  .edit .el-form-item__label {
+    font-weight: normal;
+    font-size: 12px; }

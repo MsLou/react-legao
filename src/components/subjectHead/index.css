@@ -1,0 +1,14 @@
+.head {
+  height: 64px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center; }
+  .head-btn {
+    position: absolute;
+    right: 16px; }
+    .head-btn > * {
+      margin-left: 10px; }

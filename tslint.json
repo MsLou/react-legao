@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "warn",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "disable-next-line": true,
+    "semicolon": [false, "always"],
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "space-before-function-paren": [false, "always"],
+    "ban-types": false,
+    "no-console": false,
+    "max-line-length": [true, 240],
+    "trailing-comma": [false, {"multiline": "always", "singleline": "never"}]
+  }
+}
